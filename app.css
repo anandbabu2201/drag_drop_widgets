@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  font: inherit;
+  padding: 0.2rem 0.4rem;
+  width: 100%;
+  max-width: 30rem;
+  border: 1px solid #ccc;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  background: #fff5f9;
+}
+
+button {
+  font: inherit;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ff0062;
+  background: #ff0062;
+  cursor: pointer;
+  color: white;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  border-color: #a80041;
+  background: #a80041;
+}
+
+.projets {
+  margin: 1rem;
+  border: 1px solid #ff0062;
+}
+
+.projets header {
+  background: #ff0062;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#finished-projects {
+  background: #0044ff;
+}
+
+#finished-projects header {
+  background: #0044ff;
+}
+
+.projets h2 {
+  color: white;
+  margin: 0;
+}
+
+.projets ul {
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+}
+
+.projets li {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.projets li h2 {
+  color: #ff0062;
+  margin: 0.5rem 0;
+}
+
+#finished-projects li h2 {
+  color: #0044ff;
+}
+
+.projets li h3 {
+  color: #575757;
+  font-size: 1rem;
+}
+
+.projets li p {
+  margin: 0;
+}
+
+.droppable {
+  background: #ffe3ee;
+}
+
+#finished-projects .droppable {
+  background: #d6e1ff;
+}
+
+.user-input {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ff0062;
+  background: #f7f7f7;
+}

@@ -55,12 +55,12 @@ button:active {
   background: #a80041;
 }
 
-.projets {
+.projects {
   margin: 1rem;
   border: 1px solid #ff0062;
 }
 
-.projets header {
+.projects header {
   background: #ff0062;
   height: 3.5rem;
   display: flex;
@@ -76,24 +76,26 @@ button:active {
   background: #0044ff;
 }
 
-.projets h2 {
+.projects h2 {
   color: white;
   margin: 0;
 }
 
-.projets ul {
+.projects ul {
   list-style: none;
   padding: 1rem;
   margin: 0;
 }
 
-.projets li {
+.projects li {
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
   padding: 1rem;
   margin: 1rem;
+  background: white;
+  cursor: move;
 }
 
-.projets li h2 {
+.projects li h2 {
   color: #ff0062;
   margin: 0.5rem 0;
 }
@@ -102,12 +104,12 @@ button:active {
   color: #0044ff;
 }
 
-.projets li h3 {
+.projects li h3 {
   color: #575757;
   font-size: 1rem;
 }
 
-.projets li p {
+.projects li p {
   margin: 0;
 }
 
@@ -119,7 +121,7 @@ button:active {
   background: #d6e1ff;
 }
 
-.user-input {
+#user-input {
   margin: 1rem;
   padding: 1rem;
   border: 1px solid #ff0062;
